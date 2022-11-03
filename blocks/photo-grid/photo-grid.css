@@ -24,7 +24,7 @@
         grid-template-rows: repeat(auto-fit, 1fr);
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 753px){
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
         grid-template-rows: repeat(auto-fit, 1fr);

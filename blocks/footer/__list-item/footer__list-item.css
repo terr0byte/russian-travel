@@ -16,7 +16,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 753px) {
     .footer__list-item {
         margin: 0 0 32px 0;
         font-style: normal;
