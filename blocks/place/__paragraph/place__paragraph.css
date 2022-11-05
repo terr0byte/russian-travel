@@ -15,17 +15,15 @@
         margin-bottom: 27px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 797px) {
     .place__paragraph {
         margin-bottom: 25px;
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 163%;
     }
 }
 @media screen and (max-width: 753px) {
     .place__paragraph {
-        padding: 0 2.5%;
+        padding: 0 16px;
     }
 }

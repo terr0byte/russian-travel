@@ -3,20 +3,8 @@
     align-self: start;
     padding: 0;
     list-style: none;
-    width: 690px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-}
-
-@media screen and (max-width: 768px) {
-    .list {
-        width: 720px;
-    }
-}
-@media screen and (max-width: 753px) {
-    .list {
-        width: 288px;
-    }
 }

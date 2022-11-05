@@ -2,6 +2,12 @@
     margin-bottom: 92px;
 }
 
+@media screen and (max-width: 797px) {
+    .indent {
+        margin-bottom: 88px;
+    }
+}
+
 @media screen and (max-width: 753px) {
     .indent {
         margin-bottom: 64px;

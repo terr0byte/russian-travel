@@ -6,7 +6,7 @@
     column-gap: 16px;
     align-content: start;
     justify-content: start;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -18,10 +18,11 @@
         column-gap: 14px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 797px){
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
         grid-template-rows: repeat(auto-fit, 1fr);
+        width: 90%;
     }
 }
 @media screen and (max-width: 753px){
@@ -30,6 +31,6 @@
         grid-template-rows: repeat(auto-fit, 1fr);
         row-gap: 12px;
         column-gap: 12px;
-        width: 95%;
+        width: 90%;
     }
 }
