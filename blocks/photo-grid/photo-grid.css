@@ -13,24 +13,21 @@
 @media screen and (max-width: 1024px) {
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-        grid-template-rows: repeat(auto-fit, 1fr);
         row-gap: 14px;
         column-gap: 14px;
+        width: 90%;
     }
 }
 @media screen and (max-width: 797px){
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-        grid-template-rows: repeat(auto-fit, 1fr);
-        width: 90%;
+        width: 94%;
     }
 }
 @media screen and (max-width: 753px){
     .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
-        grid-template-rows: repeat(auto-fit, 1fr);
         row-gap: 12px;
         column-gap: 12px;
-        width: 90%;
     }
 }
